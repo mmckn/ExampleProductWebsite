@@ -1,23 +1,39 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	
 	<link href="https://fonts.googleapis.com/css?family=Lato:400,400i,900|Open+Sans" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="websiteExample.css">
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Example website</title>
 </head>
 <body class="background">
+	
 	<header>
-	<nav>
+		<div id="homeImg">
+			<nav>
 		<li id="nav">
 			<ul><a>Home </a> </ul>
 			<ul><a>contact us</a></ul>
 		</li>
 	</nav>
+		<h1 class="title"> Nuwood </h1>
+
+		<h2 id="introText">Purveyors of quality woodworking supplies and machinery since 1990.</ph2>
+
+
+
+<div class="buttonPosition">
+
+		<Button id="button1" class="bottom" ></Button>
+	</div>
+	</div>
+
+
 </header>
 <div>
-<h1 id="title">Business name</h1>
+
+
 
 <div class="images">
 <ul id="imgul">
@@ -29,7 +45,7 @@
 	</li>
 
 	<li class="imgli">
-			<img class="imgli2" src="https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Drill" >
+			<img  src="https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Drill" >
 			<a class="purchaseLink" href="">Purchase</a>
 	
    
@@ -50,16 +66,55 @@
 <li class="imgli">
 	<img src="https://images.unsplash.com/photo-1534398079543-7ae6d016b86a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80" alt="Pliers">
 	<a class="purchaseLink" href="">Purchase</a>
-</li>
-	
 
+</li>
+<li class="imgli" onclick="location.href = 'https://www.w3schools.com';">
+	
+	
+	<img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Honda_RA168E_engine_rear_Honda_Collection_Hall.jpg" alt="Honda car engine" >
+	<a class="purchaseLink" href="">Purchase</a>
+	</li>
+
+	<li class="imgli">
+			<img  src="https://images.unsplash.com/photo-1504148455328-c376907d081c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Drill" >
+			<a class="purchaseLink" href="">Purchase</a>
+	
+   
+
+</li>
+<li class="imgli">
+	<img src="https://images.unsplash.com/photo-1581085271555-d32ebe05933a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" alt="Spanner" >
+	<a class="purchaseLink" href="">Purchase</a>
+</li>
 </ul>
 
 	</div>
 
 </div>
 
+<div class="enquiries">
+<h3 class="title" id="enquiriesTitle"> Enquiries </h3>
+<div class="container">
 
 
+  <form action="">
+
+    <label for="name">Name</label>
+    <input type="text" id="name" name="name" placeholder="Your name">
+
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" placeholder="Your Email address">
+
+   
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:210px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</div>
+<script src="websiteExample.js"></script>
 </body>
 </html>
